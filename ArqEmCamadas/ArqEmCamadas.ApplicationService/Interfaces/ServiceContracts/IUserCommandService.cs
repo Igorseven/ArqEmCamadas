@@ -9,7 +9,6 @@ public interface IUserCommandService
     Task<bool> RegisterAsync(UserRegisterRequest dtoRegister,  UserCredential userCredential);
     Task<bool> UpdateAsync(UserUpdateRequest dtoUpdate, UserCredential userCredential);
     Task<bool> ActivateOrDeactivateAsync(Guid userId, UserCredential userCredential);
-    Task ResetPasswordAsync(ChangePasswordRequest changePassword);
     Task<bool> ChangePasswordAsync(UserChangePasswordRequest dtoChangePassword, UserCredential userCredential);
     Task<bool> DeleteAsync(Guid analystId, UserCredential userCredential);
 }

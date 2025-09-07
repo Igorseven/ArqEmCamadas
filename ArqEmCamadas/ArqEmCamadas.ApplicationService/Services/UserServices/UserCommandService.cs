@@ -57,7 +57,6 @@ public sealed class UserCommandService(
             return Notification.CreateNotifications(
                 result.SetNotificationByIdentityResult(UserTrace.Save));
         
-        //TODO: enviar e-mail quando cadastrado
         await emailCommandService.SendEmailAsync(CreateEmailData(user, password!), ETemplateType.UserRegistration);
 
         GenerateLogger(UserTrace.Save, userCredential.Id, user.Id.ToString());
@@ -159,12 +158,6 @@ public sealed class UserCommandService(
         GenerateLogger(UserTrace.ChangePassword, userCredential.Id, user.Id.ToString());
 
         return repositoryResult.Succeeded;
-    }
-
-    //TODO: implementar recuperar senha.
-    public Task ResetPasswordAsync(ChangePasswordRequest changePassword)
-    {
-        throw new NotImplementedException();
     }
 
     public async Task<bool> DeleteAsync(

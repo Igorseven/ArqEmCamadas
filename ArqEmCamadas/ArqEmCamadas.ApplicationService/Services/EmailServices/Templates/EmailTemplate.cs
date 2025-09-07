@@ -5,7 +5,7 @@ namespace ArqEmCamadas.ApplicationService.Services.EmailServices.Templates;
 public static class EmailTemplate
 {
   
-  //TODO: Todos os modelos são ilustrativos (necessário substituir)
+  // Todos os modelos são ilustrativos (necessário substituir)
     public static string RegisterModel(EmailSenderRequest dto)
     {
        var template = $"""
@@ -13,14 +13,14 @@ public static class EmailTemplate
                         <html lang="pt">
                         <head>
                           <meta charset="UTF-8">
-                          <title>Bem-vindo ao Partilha Online</title>
+                          <title>Bem-vindo</title>
                         </head>
                         <body style="margin:0; font-family: Arial, sans-serif; background:#f4f4f4;">
                          
                           <div style="background:#363a40; color:#fff; display:flex; align-items:center; justify-content:space-between; padding:16px 24px;">
                             <div style="display:flex; align-items:center;">
                               <div>
-                                <img src="{dto.ClientSideUrl}/partilha-logo.png" width="200px" alt="Partilha Online">
+                                <img src="{dto.ClientSideUrl}/logo.png" width="200px" alt="Partilha Online">
                               </div>
                             </div>
                             <div style="font-size:16px; font-weight:700; letter-spacing:1px;">
@@ -87,7 +87,7 @@ public static class EmailTemplate
                           <div style="background:#363a40; color:#fff; display:flex; align-items:center; justify-content:space-between; padding:16px 24px;">
                             <div style="display:flex; align-items:center;">
                               <div>
-                                <img src="{dto.ClientSideUrl}/partilha-logo.png" width="200px" alt="Partilha Online">
+                                <img src="{dto.ClientSideUrl}/logo.png" width="200px" alt="Partilha Online">
                               </div>
                             </div>
                             <div style="font-size:16px; font-weight:700; letter-spacing:1px;">
@@ -154,7 +154,7 @@ public static class EmailTemplate
                           <div style="background:#363a40; color:#fff; display:flex; align-items:center; justify-content:space-between; padding:16px 24px;">
                             <div style="display:flex; align-items:center;">
                               <div>
-                                <img src="{dto.ClientSideUrl}/partilha-logo.png" width="200px" alt="">
+                                <img src="{dto.ClientSideUrl}/logo.png" width="200px" alt="">
                               </div>
                             </div>
                             <div style="font-size:16px; font-weight:700; letter-spacing:1px;">
@@ -180,7 +180,7 @@ public static class EmailTemplate
                           </div>
                           <div style="display:flex; justify-content:flex-end; align-items:center; margin:24px 32px 0 0;">
                             <div style="display:flex; align-items:center;">
-                              <img src="{dto.ClientSideUrl}/xbits-logo.png" width="100px" alt="">
+                              <img src="{dto.ClientSideUrl}/logo.png" width="100px" alt="">
                             </div>
                           </div>
                         </body>

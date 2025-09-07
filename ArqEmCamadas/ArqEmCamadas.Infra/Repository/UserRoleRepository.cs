@@ -4,7 +4,6 @@ using ArqEmCamadas.Infra.Interfaces.RepositoryContracts;
 using ArqEmCamadas.Infra.ORM.Contexts;
 using ArqEmCamadas.Infra.Repository.Base;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Query;
 
 namespace ArqEmCamadas.Infra.Repository;
 
@@ -16,21 +15,7 @@ public sealed class UserRoleRepository(
 
     public async Task<bool> DeleteAsync(Expression<Func<UserRole, bool>> predicate) =>
         await DbSetContext.Where(predicate).ExecuteDeleteAsync() == NumberChangesInDatabase;
-
-    public Task<UserRole?> FindByPredicateAsync(
-        Expression<Func<UserRole, bool>> predicate, 
-        Func<IQueryable<UserRole>, IIncludableQueryable<UserRole, object>>? include = null, 
-        bool toQuery = false)
-    {
-        throw new NotImplementedException();
-    }
-
-    public Task<List<UserRole>> FindAllByPredicateAsync(
-        Expression<Func<UserRole, bool>> predicate, 
-        Func<IQueryable<UserRole>, IIncludableQueryable<UserRole, object>>? include = null)
-    {
-        throw new NotImplementedException();
-    }
+    
     
     public async Task<bool> SaveAsync(UserRole userRole)
     {
