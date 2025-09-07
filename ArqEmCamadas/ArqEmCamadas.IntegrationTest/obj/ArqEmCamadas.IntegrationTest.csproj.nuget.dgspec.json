@@ -1,0 +1,497 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.IntegrationTest\\ArqEmCamadas.IntegrationTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.Api\\ArqEmCamadas.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.Api\\ArqEmCamadas.Api.csproj",
+        "projectName": "ArqEmCamadas.Api",
+        "projectPath": "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.Api\\ArqEmCamadas.Api.csproj",
+        "packagesPath": "C:\\Users\\igors\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\igors\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.ApplicationService\\ArqEmCamadas.ApplicationService.csproj": {
+                "projectPath": "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.ApplicationService\\ArqEmCamadas.ApplicationService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[8.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.ApplicationService\\ArqEmCamadas.ApplicationService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.ApplicationService\\ArqEmCamadas.ApplicationService.csproj",
+        "projectName": "ArqEmCamadas.ApplicationService",
+        "projectPath": "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.ApplicationService\\ArqEmCamadas.ApplicationService.csproj",
+        "packagesPath": "C:\\Users\\igors\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.ApplicationService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\igors\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.Infra\\ArqEmCamadas.Infra.csproj": {
+                "projectPath": "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.Infra\\ArqEmCamadas.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.13.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.Domain\\ArqEmCamadas.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.Domain\\ArqEmCamadas.Domain.csproj",
+        "projectName": "ArqEmCamadas.Domain",
+        "projectPath": "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.Domain\\ArqEmCamadas.Domain.csproj",
+        "packagesPath": "C:\\Users\\igors\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\igors\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.Infra\\ArqEmCamadas.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.Infra\\ArqEmCamadas.Infra.csproj",
+        "projectName": "ArqEmCamadas.Infra",
+        "projectPath": "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.Infra\\ArqEmCamadas.Infra.csproj",
+        "packagesPath": "C:\\Users\\igors\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\igors\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.Domain\\ArqEmCamadas.Domain.csproj": {
+                "projectPath": "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.Domain\\ArqEmCamadas.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.IntegrationTest\\ArqEmCamadas.IntegrationTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.IntegrationTest\\ArqEmCamadas.IntegrationTest.csproj",
+        "projectName": "ArqEmCamadas.IntegrationTest",
+        "projectPath": "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.IntegrationTest\\ArqEmCamadas.IntegrationTest.csproj",
+        "packagesPath": "C:\\Users\\igors\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.IntegrationTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\igors\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.UnitTest\\ArqEmCamadas.UnitTest.csproj": {
+                "projectPath": "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.UnitTest\\ArqEmCamadas.UnitTest.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.14.1, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.UnitTest\\ArqEmCamadas.UnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.UnitTest\\ArqEmCamadas.UnitTest.csproj",
+        "projectName": "ArqEmCamadas.UnitTest",
+        "projectPath": "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.UnitTest\\ArqEmCamadas.UnitTest.csproj",
+        "packagesPath": "C:\\Users\\igors\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.UnitTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\igors\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.Api\\ArqEmCamadas.Api.csproj": {
+                "projectPath": "C:\\Users\\igors\\OneDrive\\Documentos\\Net9\\ArqEmCamadas\\ArqEmCamadas\\ArqEmCamadas.Api\\ArqEmCamadas.Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.12.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

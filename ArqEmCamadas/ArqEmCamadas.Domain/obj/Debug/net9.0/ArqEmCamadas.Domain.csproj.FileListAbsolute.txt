@@ -1,0 +1,13 @@
+C:\Users\igors\OneDrive\Documentos\Net9\ArqEmCamadas\ArqEmCamadas\ArqEmCamadas.Domain\bin\Debug\net9.0\ArqEmCamadas.Domain.deps.json
+C:\Users\igors\OneDrive\Documentos\Net9\ArqEmCamadas\ArqEmCamadas\ArqEmCamadas.Domain\bin\Debug\net9.0\ArqEmCamadas.Domain.dll
+C:\Users\igors\OneDrive\Documentos\Net9\ArqEmCamadas\ArqEmCamadas\ArqEmCamadas.Domain\bin\Debug\net9.0\ArqEmCamadas.Domain.pdb
+C:\Users\igors\OneDrive\Documentos\Net9\ArqEmCamadas\ArqEmCamadas\ArqEmCamadas.Domain\obj\Debug\net9.0\ArqEmCamadas.Domain.csproj.AssemblyReference.cache
+C:\Users\igors\OneDrive\Documentos\Net9\ArqEmCamadas\ArqEmCamadas\ArqEmCamadas.Domain\obj\Debug\net9.0\ArqEmCamadas.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\igors\OneDrive\Documentos\Net9\ArqEmCamadas\ArqEmCamadas\ArqEmCamadas.Domain\obj\Debug\net9.0\ArqEmCamadas.Domain.AssemblyInfoInputs.cache
+C:\Users\igors\OneDrive\Documentos\Net9\ArqEmCamadas\ArqEmCamadas\ArqEmCamadas.Domain\obj\Debug\net9.0\ArqEmCamadas.Domain.AssemblyInfo.cs
+C:\Users\igors\OneDrive\Documentos\Net9\ArqEmCamadas\ArqEmCamadas\ArqEmCamadas.Domain\obj\Debug\net9.0\ArqEmCamadas.Domain.csproj.CoreCompileInputs.cache
+C:\Users\igors\OneDrive\Documentos\Net9\ArqEmCamadas\ArqEmCamadas\ArqEmCamadas.Domain\obj\Debug\net9.0\ArqEmCamadas.Domain.sourcelink.json
+C:\Users\igors\OneDrive\Documentos\Net9\ArqEmCamadas\ArqEmCamadas\ArqEmCamadas.Domain\obj\Debug\net9.0\ArqEmCamadas.Domain.dll
+C:\Users\igors\OneDrive\Documentos\Net9\ArqEmCamadas\ArqEmCamadas\ArqEmCamadas.Domain\obj\Debug\net9.0\refint\ArqEmCamadas.Domain.dll
+C:\Users\igors\OneDrive\Documentos\Net9\ArqEmCamadas\ArqEmCamadas\ArqEmCamadas.Domain\obj\Debug\net9.0\ArqEmCamadas.Domain.pdb
+C:\Users\igors\OneDrive\Documentos\Net9\ArqEmCamadas\ArqEmCamadas\ArqEmCamadas.Domain\obj\Debug\net9.0\ref\ArqEmCamadas.Domain.dll
